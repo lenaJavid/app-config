@@ -8,13 +8,14 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * Created by lena on 2017-04-04.bnvgvhghs
+ * Created by lena on 2017-04-04.bnvgvhghsfgfdgdfgdgdgfgdgdfg
  */
 @Entity
 @Table(name="configuration_tbl", uniqueConstraints=
 @UniqueConstraint(columnNames={"app_code", "version"}))
 public class Configuration {
 
+    //sdfdsfdsf
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.AUTO)
