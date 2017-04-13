@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * Created by lena on 2017-04-04.
+ * Created by lena on 2017-04-04.bnvgvhghs
  */
 @Entity
 @Table(name="configuration_tbl", uniqueConstraints=
