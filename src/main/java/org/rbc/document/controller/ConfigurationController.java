@@ -22,7 +22,7 @@ public class ConfigurationController {
     @Autowired
     ConfigurationService configService;
 
-    /////jhgjhgjhgjhgjhg
+    /////jhgjhgjhgjhgjhgghfhgfhgfhfghs
     @RequestMapping(value = "/app/{appCode}/config/{version}", method = RequestMethod.GET)
     public JSONObject getJsonDocument(@PathVariable(name = "appCode") String appCode,
                                   @PathVariable(name = "version") String version){
